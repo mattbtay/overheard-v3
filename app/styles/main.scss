@@ -1,0 +1,97 @@
+// bower:scss
+// endbower
+
+//colors
+$light-gray: #ecf0f1;
+$shadow-color: rgab(0,0,0,.5);
+
+body {
+  background:$light-gray;
+  font-family: 'Josefin Slab', serif;
+}
+
+.wrap {
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+}
+
+.panel {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border:none;
+}
+
+.panel-body {
+  padding:0;
+}
+
+.panel-footer {
+  background:#fff;
+  opacity:.7;
+  border:none;
+  border-radius:0;
+  font-weight:300;
+  font-size:28px;
+  text-align:center;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
+.quotes {
+  color:#e67e22;
+}
+
+.fa-quote-left {
+  margin-right:5px;
+}
+
+.fa-quote-right {
+  margin-left:5px;
+}
+
+.quote-author {
+  margin-left:5px;
+  display:block;
+}
+
+
+.opts {
+  position:fixed;
+  bottom:30px;
+  right:10px;
+}
+
+.btn-circle {
+  border-radius:50%;
+  margin-right:25px;
+  //box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  width:75px;
+  border:none;
+  height:75px;
+
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+  &:focus, &:active, &:active:focus {
+    outline:none;
+
+  }
+
+}
+
+.btn-primary {
+  background:#3498db;
+  &:hover {background:#3498db;}
+}
+
+.btn-success {
+  background:#2ecc71;
+  &:hover {background:#2ecc71;}
+}

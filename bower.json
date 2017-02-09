@@ -1,0 +1,14 @@
+{
+  "name": "overheard-v3",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.8.1",
+    "normalize-css": "^5.0.0",
+    "bootstrap": "^3.3.7",
+    "tabletop": "^1.5.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
