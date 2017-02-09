@@ -18,6 +18,11 @@ body {
   justify-content:center;
   align-items:center;
   align-content:center;
+
+  @media (max-width:676px){
+    display:block;
+    margin-top:20px;
+  }
 }
 
 .panel {
